@@ -9,8 +9,10 @@ and traits 😱
 the allocator interface and how to write a custom allocator.
 
 Jason Turner has a short video series on allocators:
-- [C++ Weekly - Ep 222 - 3.5x Faster Standard Containers With PMR!][4]
-- [C++ Weekly - Ep 235 - PMR: Amazing, Fast, But, Not Quite Magic][5]
+- [C++ Weekly - Ep 222 - 3.5x Faster Standard Containers With PMR!][4] shows
+pmr containers are faster due to fewer memory allocation calls.
+- [C++ Weekly - Ep 235 - PMR: Amazing, Fast, But, Not Quite Magic][5] explains
+the inner workings of `monotonic_buffer_resource`.
 
 [1]: https://www.youtube.com/watch?v=LIb3L4vKZ7U
 [2]: https://www.youtube.com/watch?v=kSWfushlvB8
