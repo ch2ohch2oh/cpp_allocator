@@ -13,9 +13,13 @@ Jason Turner has a short video series on allocators:
 pmr containers are faster due to fewer memory allocation calls.
 - [C++ Weekly - Ep 235 - PMR: Amazing, Fast, But, Not Quite Magic][5] explains
 the inner workings of `monotonic_buffer_resource`.
+- [C++ Weekly - Ep 236 - Creating Allocator-Aware Types][6] gives an example
+of user defined allocator aware type. You want to make sure the allocator 
+is "forwarded" for all the subcomponents of the objects.
 
 [1]: https://www.youtube.com/watch?v=LIb3L4vKZ7U
 [2]: https://www.youtube.com/watch?v=kSWfushlvB8
 [3]: https://www.youtube.com/watch?v=v3dz-AKOVL8
 [4]: https://www.youtube.com/watch?v=q6A7cKFXjY0
 [5]: https://www.youtube.com/watch?v=vXJ1dwJ9QkI
+[6]: https://www.youtube.com/watch?v=2LAsqp7UrNs
