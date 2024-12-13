@@ -16,6 +16,9 @@ the inner workings of `monotonic_buffer_resource`.
 - [C++ Weekly - Ep 236 - Creating Allocator-Aware Types][6] gives an example
 of user defined allocator aware type. You want to make sure the allocator 
 is "forwarded" for all the subcomponents of the objects.
+- [C++ Weekly - Ep 245 - PMR: Mistakes Were Made (By Me)][7] shows that 
+initializer list "does not" work with allocator well. Objects using different 
+allocators must be copied rather than moved.
 
 [1]: https://www.youtube.com/watch?v=LIb3L4vKZ7U
 [2]: https://www.youtube.com/watch?v=kSWfushlvB8
@@ -23,3 +26,4 @@ is "forwarded" for all the subcomponents of the objects.
 [4]: https://www.youtube.com/watch?v=q6A7cKFXjY0
 [5]: https://www.youtube.com/watch?v=vXJ1dwJ9QkI
 [6]: https://www.youtube.com/watch?v=2LAsqp7UrNs
+[7]: https://www.youtube.com/watch?v=6BLlIj2QoT8
