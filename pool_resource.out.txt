@@ -1,0 +1,54 @@
+do_allocate(bytes=32, alignment=8)
+do_allocate(bytes=528, alignment=8)
+do_allocate(bytes=1016, alignment=16)
+do_allocate(bytes=192, alignment=8)
+allocate(    1) => 0x23b5110
+allocate(    1) => 0x23b5120
+allocate(    2) => 0x23b5130
+allocate(    2) => 0x23b5140
+allocate(    4) => 0x23b5150
+allocate(    4) => 0x23b5160
+allocate(    8) => 0x23b5170
+allocate(    8) => 0x23b5180
+allocate(   16) => 0x23b5190
+allocate(   16) => 0x23b51a0
+do_allocate(bytes=1000, alignment=32)
+do_allocate(bytes=192, alignment=8)
+allocate(   32) => 0x23b5620
+allocate(   32) => 0x23b5640
+do_allocate(bytes=968, alignment=64)
+do_allocate(bytes=192, alignment=8)
+allocate(   64) => 0x23b5b40
+allocate(   64) => 0x23b5b80
+do_allocate(bytes=1928, alignment=128)
+do_allocate(bytes=192, alignment=8)
+allocate(  128) => 0x23b6100
+allocate(  128) => 0x23b6180
+do_allocate(bytes=3848, alignment=256)
+do_allocate(bytes=192, alignment=8)
+allocate(  256) => 0x23b6a00
+allocate(  256) => 0x23b6b00
+do_allocate(bytes=7688, alignment=512)
+do_allocate(bytes=192, alignment=8)
+allocate(  512) => 0x23b7e00
+allocate(  512) => 0x23b8000
+do_allocate(bytes=15368, alignment=1024)
+do_allocate(bytes=192, alignment=8)
+allocate( 1024) => 0x23ba000
+allocate( 1024) => 0x23ba400
+do_deallocate(p=0x23b5110, bytes=1016, alignment=16)
+do_deallocate(p=0x23b5520, bytes=192, alignment=8)
+do_deallocate(p=0x23b5620, bytes=1000, alignment=32)
+do_deallocate(p=0x23b5a50, bytes=192, alignment=8)
+do_deallocate(p=0x23b5b40, bytes=968, alignment=64)
+do_deallocate(p=0x23b5fa0, bytes=192, alignment=8)
+do_deallocate(p=0x23b6100, bytes=1928, alignment=128)
+do_deallocate(p=0x23b6930, bytes=192, alignment=8)
+do_deallocate(p=0x23b6a00, bytes=3848, alignment=256)
+do_deallocate(p=0x23b7b40, bytes=192, alignment=8)
+do_deallocate(p=0x23b7e00, bytes=7688, alignment=512)
+do_deallocate(p=0x23b9e50, bytes=192, alignment=8)
+do_deallocate(p=0x23ba000, bytes=15368, alignment=1024)
+do_deallocate(p=0x23be360, bytes=192, alignment=8)
+do_deallocate(p=0x23b4ef0, bytes=528, alignment=8)
+do_deallocate(p=0x23b4ec0, bytes=32, alignment=8)
