@@ -20,6 +20,7 @@ is "forwarded" for all the subcomponents of the objects.
 initializer list "does not" work with allocator well. Objects using different 
 allocators must be copied rather than moved.
 - [C++ Weekly - Ep 248 - Understand the C++17 PMR Standard Allocators and Track All the Things][8] explains `synchronized_pool_resource`.
+- [C++ Weekly - Ep 250 - Custom Allocation - How, Why, Where (Huge multi threaded gains and more!)][9]
 
 [1]: https://www.youtube.com/watch?v=LIb3L4vKZ7U
 [2]: https://www.youtube.com/watch?v=kSWfushlvB8
@@ -29,3 +30,4 @@ allocators must be copied rather than moved.
 [6]: https://www.youtube.com/watch?v=2LAsqp7UrNs
 [7]: https://www.youtube.com/watch?v=6BLlIj2QoT8
 [8]: https://www.youtube.com/watch?v=Zt0q3OEeuB0
+[9]: https://www.youtube.com/watch?v=5VrX_EXYIaM
